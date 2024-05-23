@@ -95,7 +95,7 @@ Pour modifier une nature d'opération :
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'une nature d'opération](https://path/to/screenshot2.png)
+![Modification d'une nature d'opération](./MOdifNO.png)
 
 ### Suppression d'une Nature d'Opération
 
@@ -109,7 +109,7 @@ Pour supprimer une nature d'opération :
 
 Pour ajouter une nouvelle nature d'opération , cliquez sur le bouton d'ajout "Ajouter nature d'opération" en haut à gauche. Cela vous redirigera vers une page ou vous remplirez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'une nouvelle nature d'opération](https://path/to/screenshot2.png)
+![Ajout d'une nouvelle nature d'opération](AddNO.png)
 
 ## Liste des natures de produit
 
@@ -130,7 +130,7 @@ Pour modifier une nature de produit :
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'une nature de produit](https://path/to/screenshot2.png)
+![Modification d'une nature de produit](modifNP.png)
 
 ### Suppression d'une Nature de produit
 
@@ -144,7 +144,7 @@ Pour supprimer une nature de produit :
 
 Pour ajouter une nouvelle nature de produit , cliquez sur le bouton d'ajout "Ajouter nature de produit" en haut à gauche. Cela vous redirigera vers une page ou vous remplirez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'une nouvelle nature de produit](https://path/to/screenshot2.png)
+![Ajout d'une nouvelle nature de produit](AddNP.png)
 
 ## Navire
 
@@ -164,7 +164,7 @@ Pour modifier un navire:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'un navire](https://path/to/screenshot2.png)
+![Modification d'un navire](NavireMOdif.png)
 
 ### Suppression d'un navires
 
@@ -178,7 +178,7 @@ Pour supprimer un navire :
 
 Pour ajouter un nouveau navire , cliquez sur le bouton d'ajout "Ajouter un navire" en haut à gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'un navire](https://path/to/screenshot2.png)
+![Ajout d'un navire](NavireAdd.png)
 
 ### Rechercher un navire
 
@@ -203,7 +203,7 @@ Pour modifier une emballage:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'une emballage](https://path/to/screenshot2.png)
+![Modification d'une emballage](EmballaMOdif.png)
 
 ### Suppression d'une emballage
 
@@ -217,7 +217,7 @@ Pour supprimer une emballage :
 
 Pour ajouter une nouvelle emballage , cliquez sur le bouton d'ajout "Ajouter" en haut gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'une emballage](https://path/to/screenshot2.png)
+![Ajout d'une emballage](embalAdd.png)
 
 ### Rechercher une emballage
 
@@ -244,7 +244,7 @@ Pour modifier un transitaire:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'un transitaire](https://path/to/screenshot2.png)
+![Modification d'un transitaire](transitmodif.png)
 
 ### Suppression d'un transitaire
 
@@ -259,14 +259,12 @@ Pour supprimer un transitaire :
 
 Pour ajouter un nouveau transitaire , cliquez sur le bouton d'ajout "Ajouter un transitaire" en haut à gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'un transitaire](https://path/to/screenshot2.png)
+![Ajout d'un transitaire](transitAdd.png)
 
 ### Rechercher un transitaire
 
 Pour rechercher un transitaire , entrez dans le formulaire de recherche le nom ou autre information du transitaire. Cliquez ensuite sur le bouton de recherche.
 La liste des transitaires trouvés s'affichera dans le tableau.
-
-![recherche d'un transitaire](https://path/to/screenshot2.png)
 
 ## Jour fériés
 
@@ -288,7 +286,7 @@ Pour modifier un jour férié:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'un jour férié](https://path/to/screenshot2.png)
+![Modification d'un jour férié](feriemodif.png)
 
 ### Suppression d'un jour férié
 
@@ -302,7 +300,7 @@ Pour supprimer un jour férié :
 
 Pour ajouter un nouveau jour férié , cliquez sur le bouton d'ajout "Ajouter" en haut à gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'un jour férié](https://path/to/screenshot2.png)
+![Ajout d'un jour férié](ferieAdd.png)
 
 ### Rechercher un jour férié
 
@@ -328,7 +326,7 @@ Pour modifier un jour:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'un jour](https://path/to/screenshot2.png)
+![Modification d'un jour](jourmodif.png)
 
 ### Suppression d'un jour
 
@@ -342,7 +340,7 @@ Pour supprimer un jour :
 
 Pour ajouter un nouveau jour , cliquez sur le bouton d'ajout "Ajouter" en haut à gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'un jour](https://path/to/screenshot2.png)
+![Ajout d'un jour](jouradd.png)
 
 ### Rechercher un jour
 
@@ -368,7 +366,7 @@ Pour modifier un opération:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'uns opération](https://path/to/screenshot2.png)
+![Modification d'uns opération](operatModif.png)
 
 ### Suppression d'une opération
 
@@ -382,14 +380,12 @@ Pour supprimer un navire :
 
 Pour ajouter une nouvelle opération , cliquez sur le bouton d'ajout "Ajouter" en haut à gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'une opération](https://path/to/screenshot2.png)
+![Ajout d'une opération](operatadd.png)
 
 ### Rechercher une opération
 
 Pour rechercher un navire , entrez dans le formulaire de recherche le code ou autre information de l'opération. Cliquez ensuite sur le bouton de recherche.
 La liste des opérations trouvées s'affichera dans le tableau.
-
-![recherche d'une opération](https://path/to/screenshot2.png)
 
 ## Chantier
 
@@ -410,7 +406,7 @@ Pour modifier un chantier:
 2. Vous serez redirigé vers une page de modification.
 3. Modifiez les informations souhaitées et cliquez sur le bouton "Mettre à jour" pour sauvegarder les modifications.
 
-![Modification d'un chantier](https://path/to/screenshot2.png)
+![Modification d'un chantier](Chantiermodi.png)
 
 ### Suppression d'un chantier
 
@@ -424,7 +420,7 @@ Pour supprimer un chantier :
 
 Pour ajouter un nouveau chantier , cliquez sur le bouton d'ajout "Ajouter" en haut à gauche. Cela vous redirigera vers une page ou vous remplirerez le formulaire d'ajout et cliquerez sur le bouton "Enregistrer"
 
-![Ajout d'un chantier](https://path/to/screenshot2.png)
+![Ajout d'un chantier](Chantieradd.png)
 
 ### Rechercher un chantier
 
@@ -509,3 +505,25 @@ Pour ajouter une nouvelle structure , cliquez sur le bouton d'ajout "Ajouter un 
 
 Pour rechercher une structure , entrez dans le formulaire de recherche le nom ou l'adresse de la structure. Cliquez ensuite sur le bouton de recherche.
 La liste des structures trouvées s'affichera dans le tableau.
+
+## FICHE DE PAIE
+
+### Liste des travailleurs
+
+La page de liste des travailleurs affiche tous les navires existantes dans le système dans un tableau. Chaque ligne du tableau contient les informations suivantes :
+
+- Badge
+- Nom du travailleur
+- Prénoms
+- Matricule
+- Téléphone
+- Fonction
+- Actions (Imprimer)
+
+![Liste des travailleurs](travailleurs.png)
+
+### Fiche de paie
+
+On peut imprimer ou voir la fiche de paie d'un travailleur donné au bout d'une période donnée en entrant la date de début et la date de fin et en cliquant sur le bouton imprimer de la colonne "Action" sur la ligne du travailleur.
+
+![fiche de paie d'un travailleurs](fichepaie.png)
