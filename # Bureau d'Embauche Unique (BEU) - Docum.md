@@ -1111,12 +1111,13 @@ On peut imprimer ou voir la fiche de paie d'un travailleur donné au bout d'une 
 
 Cette section permet de consulter la liste complète factures périodiques enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
 
--Date
--Salaire
--CNSS
--VPS
--Total
--Origine
+-Date Facture
+-Référence
+-Société
+-Montant TTC
+-Période
+-Statut
+-Actions
 
 ### Filtres de recherche
 
@@ -1134,46 +1135,39 @@ La liste affiche les informations suivantes pour chaque tâcheron:
 - **Début Période** : La date de début de la période.
 - **Fin Période** : La date de fin de la période.
 - **Facture** : Le numéro de la facture.
-![Liste des demandes de tâcherons en attente](fact_periodiq.png)
+
+![Liste des factures périodiques](fact_periodiq.png)
 
 
 ## Liste des Factures à Venir
 
-La page de liste des demandes Dockers affiche toutes les demandes Dockers en attente dans un tableau. Chaque ligne du tableau contient les informations suivantes :
--Référence
--Création
--Navire
--Chantier
--Opération
--Demandeur
--N° Conteneur 
--Produit
--Quantité
--Statut
--Actions
+La page de liste des factures à venir affiche toutes les factures à venir, dans un tableau. Chaque ligne du tableau contient les informations suivantes :
+-Date
+-Salaire
+-CNSS
+-VPS
+-Total
+-Origine
 
-![Liste des demandes de tâcherons en attente](fact_venir.png)
+![Liste des factures à venir](fact_venir.png)
 
 ### Filtres de recherche
 
-Plusieurs filtres sont disponibles pour faciliter la recherche d'une demande de tâcheron en attente : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
+Plusieurs filtres sont disponibles pour faciliter la recherche d'une facture à venir
 
-- **Référence** : Rechercher par la référence.
 - **Société** : Rechercher par le nom de la société.
-- **Navire** : Rechercher par le nom du navire.
 - **Début période** : Rechercher par la date de début.
 - **Fin période** : Rechercher par la date de fin.
-- **Statut** : Rechercher par le statut de la demande.
+- **Facture** : Rechercher par le numéro facture.
 
 ### Résultats
 
 La liste affiche les informations suivantes pour chaque demande de tâcheron en attente :
-- **Références** : Le numéro de demande attribué.
+
 - **Société** : Le nom de la société.
-- **Navire** : Le nom du navire. 
 - **Début période** : La date de début.
 - **Fin période** : La date de fin.
-- **Statut** : Le statut de la demande.
+- **Facture** : La facture de la demande.
 
 
 # Administration
@@ -1214,7 +1208,7 @@ La liste affiche les informations suivantes pour l'utilisateur recherché:
 - **Role** : Le rôle de l'utilisateur.
 - **Statut** : Le statut de l'utilisateur recherché.
 0
-!0[Liste des utilisateurs](.png)
+!0[Liste des utilisateurs](userlist.png)
 
 ### Ajouter un utilisateur
 Pour ajouter une nouvel utilisateur, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire de création et ensuite vous cliquerez sur le bouton "Enregistrer"
@@ -1229,7 +1223,7 @@ La page de liste des rôles affiche tous les rôles en attente dans un tableau. 
 - **Nombre de permisions**
 - **Actions** 
 
-![Liste des rôles](.png)
+![Liste des rôles](rolelist.png)
 
 ### Filtres de recherche
 
@@ -1280,7 +1274,7 @@ La liste affiche les informations suivantes pour la grille docker recherchée:
 - **Type jour** : Le type jour.
 - **Taux** : Le taux de la grille docker.
 
-![Liste grille docker](.png)
+![Liste grille docker](grille.png)
 
 ### Ajouter une nouvelle grille docker
 Pour ajouter une nouvelle grille docker, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1310,7 +1304,7 @@ La liste affiche les informations suivantes pour le barème tâcheron recherché
 - **Nature produit** : La nature du produit.
 - **Prix unitaire** : Le prix unitaire.
 
-![Liste des barèmes tâcherons](.png)
+![Liste des barèmes tâcherons](tacheronlist.png)
 
 ### Ajouter un nouveau barème tâcheron
 Pour ajouter un nouveau barème tâcheron, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1345,7 +1339,7 @@ La liste affiche les informations suivantes pour l'équipe tâcheron recherchée
 - **Prénom responsable** : Le prénom du responsable.
 - **Téléphone** : Le numéro de téléphone.
 
-![Liste des équipes tâcherons](.png)
+![Liste des équipes tâcherons](teamron.png)
 
 ### Ajouter une nouvelle équipe tâcheron
 Pour ajouter une nouvelle équipe tâcheron, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1381,7 +1375,7 @@ La liste affiche les informations suivantes pour l'équipe tâcheron recherchée
 - **Date** : La date d'enrégistrement.
 - **Statut** : Le statut de l'équipe.
 
-![Liste des équipes types docker](.png)
+![Liste des équipes types docker](teamdocker.png)
 
 ### Ajouter une nouvelle équipe type docker
 Pour ajouter une nouvelle équipe type docker, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1404,8 +1398,8 @@ Cette section permet de consulter la liste des paramétrages système enregistr�
 Plusieurs filtres sont disponibles pour faciliter la recherche d'un paramétrage système spécifique : Cliquer sur le bouton "Cliquez ici pour faire une recherche avancée" pour rechercher.
 
 - **Code** : Rechercher par le code.
-- **Nom du repsonsable** : Rechercher par la description de l'équipe
-- **Prénoms du reponsable** : Rechercher par la taille.  
+- **Nom du responsable** : Rechercher par la description de l'équipe
+- **Prénoms du responsable** : Rechercher par la taille.  
 - **Téléphone** : Rechercher par la taille.  
 - **Date** : Rechercher par la date d'enrégistrement.
 - **Statut** : Rechercher par le statut.
@@ -1414,13 +1408,13 @@ Plusieurs filtres sont disponibles pour faciliter la recherche d'un paramétrage
 
 La liste affiche les informations suivantes pour le paramétrage système recherché :
 - **Code** : Le code.
-- **Nom du repsonsable** : Le nom du reponsable
-- **Prénoms du reponsable** : Prénoms du reponsable.  
+- **Nom du responsable** : Le nom du responsable
+- **Prénoms du responsable** : Prénoms du responsable.  
 - **Téléphone** : Le numéro de téléphone.  
 - **Date** : La date d'enrégistrement.
 - **Statut** : Le statut du paramétrage système.
 
-![Liste des paramétrages sytème](.png)
+![Liste des paramétrages sytème](parasys.png)
 
 ### Ajouter un nouveau paramétrage système
 Pour ajouter un nouveau paramétrage système, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1437,7 +1431,7 @@ Cette section permet de consulter la liste des epis enregistrés dans le systèm
 -Date de création
 -Actions (Gestion du stock, Modifier, Supprimer).
 
-![Liste des épis](.png)
+![Liste des épis](epiges.png)
 
 ### Ajouter un nouvel epi
 Pour ajouter un nouvel epi, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1452,10 +1446,24 @@ Cette section permet de consulter la liste des epis enregistrés dans le systèm
 -Date de création
 -Actions
 
-![Liste des packages](.png)
+![Liste des packages](packages.png)
 
 ### Ajouter un nouveau package
 Pour ajouter un nouveau package, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
+
+
+# Gestion des marques
+
+Cette section permet de consulter la liste des marques enregistrées dans le système. Chaque ligne du tableau contient les informations suivantes :
+
+-Nom 
+-Date de création
+-Actions
+
+![Liste des marques](marqueges.png)
+
+### Ajouter un nouvelle marque
+Pour ajouter une nouvelle marque, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
 
 
 # Gestion des fournisseurs 
@@ -1468,7 +1476,7 @@ Cette section permet de consulter la liste des fournisseurs enregistrés dans le
 -Date de création
 -Actions
 
-![Liste des fournisseurs](.png)
+![Liste des fournisseurs](saler.png)
 
 ### Ajouter un nouveau fournisseur
 Pour ajouter un nouveau fournisseur, cliquez sur le bouton d'ajout "Ajouter" en haut à droite. Cela vous redirigera vers une page où vous remplirez le formulaire d'ajout et ensuite vous cliquerez sur le bouton "Enregistrer".
@@ -1478,4 +1486,4 @@ Pour ajouter un nouveau fournisseur, cliquez sur le bouton d'ajout "Ajouter" en 
 
 Cette section permet de consulter la liste de journal d'activités enregistrés dans le système. 
 
-![Liste des journaux d'activités](.png)
+![Liste des journaux d'activités](journal.png)
